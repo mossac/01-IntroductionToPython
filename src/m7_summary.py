@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -43,3 +43,17 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+blue= rg.SimpleTurtle()
+blue.pen = rg.Pen('blue',1)
+blue.go_to(rg.Point(0,100))
+blue.pen_up()
+blue.go_to(rg.Point(100,-40))
+blue.pen_down()
+blue.pen = rg.Pen('green',10)
+blue.go_to(rg.Point(100,-190))
+
+
+window.close_on_mouse_click()
+
