@@ -80,7 +80,7 @@ print("python","1","2","3")
 #   TEST your code by re-running this module, then asking someone
 #   whom you trust:
 #      What number did your   print   display for this TO-DO?
-#   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
+#   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.k
 #
 ###############################################################################
 print("product of 3607 and 34227 =",3607*34227)
