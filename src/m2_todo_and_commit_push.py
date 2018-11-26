@@ -86,7 +86,7 @@ print("python","1","2","3")
 print("product of 3607 and 34227 =",3607*34337)
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Look at the list of files in the Project window (to the left).
 #   Note that this file:
 #      m2_todo_and_commit_push.py
